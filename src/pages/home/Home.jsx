@@ -12,7 +12,7 @@ import fried from "../../assets/fried.jpeg"
 import frozen from "../../assets/frozen.jpeg"
 import grill from "../../assets/grill.jpeg"
 import pepperf from "../../assets/pepperf.jpeg"
-
+import foodcustom from "../../assets/foodcustom.webp"
 import custom from "../../assets/custom.jpg"
 import delivery from "../../assets/delivery.gif"
 
@@ -65,12 +65,12 @@ const Home = () => {
       {/* section 3 */}
       <div className="flex justify-center mt-[3rem]">
         <div id="menu" className="lg:grid lg:grid-cols-3 gap-10 space-y-2 md:grid md:grid-cols-2 lg:block">
-          <div><Modals className='w-[20rem] h-[18rem] rounded-[10rem] drop-shadow-lg' text="Jollof Rice and Chicken" price="N1,800"  image={jolly1}/></div>
-          <div><Modals className='w-[20rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Frozen Chicken" price="N6,000-N15,000"  image={frozen}/></div>
-          <div><Modals className='w-[20rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Fried Chicken" price="Chicken price + N2,500"  image={fried}/></div>
-          <div><Modals className='w-[20rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Grill Chicken" price="Chicken price + N2,000"  image={grill}/></div>
-          <div><Modals className='w-[20rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Pepper Fried/Soup Chicken" price="Chicken price + N3,500"  image={pepperf}/></div>
-          <div><Modals className='w-[20rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Efo/Egusi Chicken" price="Chicken Price + N4,000" image={egusi}/></div>
+          <div><Modals className='w-[20rem] h-[18rem] rounded-[10rem] drop-shadow-lg' text="Jollof Rice and Chicken" price="N1,800"  image={foodcustom}/></div>
+          <div><Modals className='w-[18rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Frozen Chicken" price="N6,000-N15,000"  image={frozen}/></div>
+          <div><Modals className='w-[18em]  h-[18rem] rounded-[50%] drop-shadow-lg' text="Fried Chicken" price="Chicken price + N2,500"  image={fried}/></div>
+          <div><Modals className='w-[18rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Grill Chicken" price="Chicken price + N2,000"  image={grill}/></div>
+          <div><Modals className='w-[18rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Pepper Fried/Soup Chicken" price="Chicken price + N3,500"  image={pepperf}/></div>
+          <div><Modals className='w-[18rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Efo/Egusi Chicken" price="Chicken Price + N4,000" image={egusi}/></div>
         </div>
       </div>
      
