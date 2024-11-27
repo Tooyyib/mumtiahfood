@@ -84,7 +84,7 @@ const Home = () => {
         <div className="mytext text-2xl w-[20rem] px-3">
           We love it when you create your own custom 
           packages and express your creativity!
-          See our favourite custom orders this week.
+          See our favourite custom orders this week
         </div>
       </div>
      </div>
