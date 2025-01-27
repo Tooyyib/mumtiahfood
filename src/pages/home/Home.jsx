@@ -28,7 +28,7 @@ const Home = () => {
   React.useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [' Order Mumtiah Foods for today, tomorrow or whenever!'],
-      typeSpeed: 200,
+      typeSpeed: 50,
     });
 
     return () => {

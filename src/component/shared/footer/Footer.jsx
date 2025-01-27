@@ -27,7 +27,7 @@ const Footer = () => {
     <div className="text-green-900 flex flex-col gap-3 my-[0.7rem]">
       <div className="text-[#ffff]">Location</div>
       <div>Lagos</div>
-      <div>35,Arobadade,after sawmill,Bariga</div>
+      <div>23,Olowu,Bariga</div>
     </div>
     <div className="text-green-900 flex flex-col gap-3 my-[0.7rem]">
       <div className="text-[#ffff]">Connect</div>
