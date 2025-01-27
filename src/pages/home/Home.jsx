@@ -16,10 +16,28 @@ import foodcustom from "../../assets/foodcustom.webp"
 import custom from "../../assets/custom.jpg"
 import delivery from "../../assets/delivery.gif"
 
+import React from 'react';
+import Typed from 'typed.js';
+
 
 
 
 const Home = () => {
+  const el = React.useRef(null);
+
+  React.useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: [' Order Mumtiah Foods for today, tomorrow or whenever!'],
+      typeSpeed: 200,
+    });
+
+    return () => {
+      // Destroy Typed instance during cleanup to stop animation
+      typed.destroy();
+    };
+  }, []);
+
+
   return (
     <Container>
       <div className="text-green-300 text-center text-4xl h-screen bg-gradient-to-r from-teal-400 to-yellow-200">
@@ -38,13 +56,16 @@ const Home = () => {
          <div className="flex justify-center">
           <div className="flex flex-col gap-5 items-center  mt-[10rem] sm:pl-5">
             <div className="lg:text-5xl lg:w-[45rem] font-semibold drop-shadow-lg text-white">
-            Order Mumtiah Foods for today, tomorrow or whenever!
+              <span className="" ref={el} />
+     
             </div>
             <div className="flex gap-3 items-center">
               <div><Button href="#menu" a="Order a package" /></div>
               <div><Button href="http://wa.me/2349037938452" a="Build your package" /></div>
             </div>
           </div>
+
+
          </div>
 
          {/* section 2 */}
@@ -89,8 +110,7 @@ const Home = () => {
       </div>
      </div>
      
-     
-
+    
 <div className="lg:flex justify-center gap-10 items-center my-[3rem] pl-3 pr-3 md:pl-5 md:text-[1.3rem]">
   <div className="flex flex-col gap-3">
     <div className="flex floor text-3xl lg:w-[35rem] h-[10rem] md:w-[47rem] font-bold text-[#8ed520] rounded-lg pt-5 pl-7">
