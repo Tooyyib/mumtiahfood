@@ -86,8 +86,8 @@ const Home = () => {
       {/* section 3 */}
       <div className="flex justify-center mt-[3rem]">
         <div id="menu" className="lg:grid lg:grid-cols-3 gap-10 space-y-2 md:grid md:grid-cols-2 lg:block">
-          <div><Modals className='w-[20rem] h-[18rem] rounded-[10rem] drop-shadow-lg' text="Jollof Rice and Chicken" price="N1,800"  image={foodcustom}/></div>
-          <div><Modals className='w-[18rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Frozen Chicken" price="N6,000-N15,000"  image={frozen}/></div>
+          <div><Modals className='w-[20rem] h-[18rem] rounded-[10rem] drop-shadow-lg' text="Jollof Rice and Chicken" price="N1,500"  image={foodcustom}/></div>
+          <div><Modals className='w-[18rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Frozen Chicken" price="N8,000"  image={frozen}/></div>
           <div><Modals className='w-[18em]  h-[18rem] rounded-[50%] drop-shadow-lg' text="Fried Chicken" price="Chicken price + N2,500"  image={fried}/></div>
           <div><Modals className='w-[18rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Grill Chicken" price="Chicken price + N2,000"  image={grill}/></div>
           <div><Modals className='w-[18rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Pepper Fried/Soup Chicken" price="Chicken price + N3,500"  image={pepperf}/></div>
@@ -96,7 +96,7 @@ const Home = () => {
       </div>
      
 
-     <div className="change  flex justify-center gap-5 items-center h-screen">
+     <div className="flex  justify-center gap-5 items-center h-screen">
       <div className="md:pl-5">
         <img className="rounded-[50%] lg:w-[30rem] md:block hidden" src={custom} alt="custom" />
       </div>
@@ -111,12 +111,12 @@ const Home = () => {
      </div>
      
     
-<div className="lg:flex justify-center gap-10 items-center my-[3rem] pl-3 pr-3 md:pl-5 md:text-[1.3rem]">
+<div className="lg:flex justify-center items-center gap-10  my-[3rem] pl-3 pr-3 md:pl-5 md:text-[1.3rem]">
   <div className="flex flex-col gap-3">
     <div className="flex floor text-3xl lg:w-[35rem] h-[10rem] md:w-[47rem] font-bold text-[#8ed520] rounded-lg pt-5 pl-7">
       Event
     </div>
-    <div className="lg:w-[22rem] md:w-[30rem]">
+    <div className="w-[30rem]">
     An event without Mumtiah Foods is definitely just a gathering. It gets better; you can customise your order however you deem fit.
     </div>
     <div className="">
@@ -137,17 +137,15 @@ const Home = () => {
   </div>
 </div>
 
-<div className="flex justify-center p-4">
-<h2 className="text-4xl font-semibold">We Offers the Best Delivery</h2>
-</div>
+{/* delivery  message */}
 
 <div className="flex justify-center gap-10 items-center bg-white mb-[2rem] md:px-5">
       <div className="">
-        <img className="lg:block rounded-lg lg:w-[40rem] md:block hidden" src={delivery} alt="custom" />
+        <img className=" rounded-lg lg:w-[30rem] sm:block" src={delivery} alt="custom" />
       </div>
-      <div className="flex flex-col gap-4">
-        <div  className="text-3xl w-[20rem] font-bold text-[#8fd521]">Delivered to your door step</div>
-        <div className="text-2xl w-[20rem]">
+      <div className="space-y-5">
+        <div  className="text-3xl w-[25rem] font-bold text-[#8fd521]">Delivered to your door step</div>
+        <div className="text-2xl w-[27rem]">
          The level of care and customer service our pilots provide is a testament to the filtering,
           training, and values we've instilled into them from the beginning.
         </div>
