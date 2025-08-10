@@ -31,9 +31,9 @@ const Header = () => {
 
 
 
-<div className={`${drop ? 'block lg:flex absolute  lg:static z-20 fonts-bold left-[15px] top-[85px] space-y-3 py-3': 'hidden lg:flex'} gap-10  w-full  lg:w-auto items-center text-[1.1rem]`}>
+<div className={`${drop ? 'block lg:flex absolute  lg:static z-20 fonts-bold left-[15px] top-[85px]  space-y-3 py-3': 'hidden lg:flex'} gap-10  w-full  lg:w-auto items-center text-[1.1rem]`}>
   <div>
-    <a className="hover:opacity-50" href="/">Home</a
+    <a className="hover:opacity-50" href="/">Home</a>
 
   </div>
   <div><button><a className="hover:opacity-50" href="#contactus">Contact us</a></button></div>
