@@ -164,22 +164,39 @@
 } 
 
 .floor{
-	background-image: url(./assets/event2.gif);
+	background-image: url(./assets/event3.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
+	transition: transform .2s;
+}
+
+.floor:hover {
+
+transform: scale(1.2);
 
 }
+
+
+
+
 .floors{
-	background-image: url(./assets/event4.gif);
+	background-image: url(./assets/corporate.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
+	transition: transform .2s;
 }
+.floors:hover {
 
+transform: scale(1.2);
+
+}
 
 
 
 .change{
-	animation: change 60s infinite;
+	animation: change 30s infinite;
 }
 @keyframes change{
     from {background-color:  white}
