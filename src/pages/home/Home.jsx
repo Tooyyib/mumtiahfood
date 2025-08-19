@@ -127,7 +127,7 @@ const Home = () => {
 <div className="lg:flex justify-center gap-10  my-[3rem] pl-3 pr-3 md:pl-5 md:text-[1.3rem]">
   {/* event */}
   <div className="flex flex-col gap-3" >
-    <a href="http://wa.me/2348035791134#peace be upon you. i want to order for our upcoming event" className="cursor-pointer">
+    <a href="http://wa.me/2348035791134?text=peace be upon you. i want to order for our upcoming event" className="cursor-pointer">
       <div  className="flex floor text-3xl lg:w-[35rem] h-[10rem] md:w-[47rem] font-bold text-[#ffff] rounded-lg pt-5 pl-7">
     Event
     </div>
