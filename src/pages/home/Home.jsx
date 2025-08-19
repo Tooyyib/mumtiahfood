@@ -65,7 +65,7 @@ const Home = () => {
             </div>
             <div className="flex gap-3 items-center">
               <div><Button href="#menu" a="Order a package" /></div>
-              <div><Button href="http://wa.me/2349037938452" a="Build your package" /></div>
+              <div><Button href="http://wa.me/2349037938452?text=peace be upon you, i want to build a package" a="Build your package" /></div>
             </div>
           </div>
 
@@ -140,7 +140,7 @@ const Home = () => {
 
 {/* corporate */}
   <div className="flex flex-col gap-3">
-    <a href="http://wa.me/2348035791134#peace be upon you. i want to order for our upcoming hangout" className="cursor-pointer">
+    <a href="http://wa.me/2348035791134?text=peace be upon you. i want to order for our upcoming hangout" className="cursor-pointer">
       <div  className="flex floors text-3xl lg:w-[35rem] h-[10rem] md:w-[47rem] font-bold text-[#ffff] rounded-lg pt-5 pl-7">
     Corporate
     </div>
