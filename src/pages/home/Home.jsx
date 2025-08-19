@@ -85,7 +85,7 @@ const Home = () => {
            px-5">
           See what our beloving customers loved most this week, join our never ending dish - ORDER NOW!
           </div>
-        <div className="flex justify-center"><img src={custom} className="w-[20rem] rounded-lg lg:hidden md:hidden" alt="custom" /></div>
+        <div className="flex justify-center pt-[1.5rem]"><img src={custom} className="w-[20rem] rounded-lg lg:hidden md:hidden" alt="custom" /></div>
 
         </div>
         <div className=""><img src={custom} className="w-[32rem] rounded-[5rem] lg:inline md:inline hidden" alt="custom" /></div>
