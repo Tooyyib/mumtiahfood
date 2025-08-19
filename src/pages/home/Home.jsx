@@ -13,7 +13,10 @@ import grillis from "../../assets/grillis.jpg"
 import pepperf from "../../assets/pepperf.jpg"
 import foodcustom from "../../assets/foodcustom.webp"
 import custom from "../../assets/custom.jpg"
+import event3 from "../../assets/event3.jpg"
+import food3 from "../../assets/food3.avif"
 import deliveryavater from "../../assets/deliveryavater.jpg"
+
 
 import React from 'react';
 import Typed from 'typed.js';
@@ -26,7 +29,7 @@ const Home = () => {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: [' Order Mumtiah Foods for today, tomorrow or whenever!'],
+      strings: [' Order Mumtiah Foods for today, tomorrow or whenever! '],
       typeSpeed: 50,
     });
 
@@ -39,6 +42,8 @@ const Home = () => {
 
   return (
     <Container>
+
+      {/* mumtiah intro message */}
       <div className="text-green-300 text-center text-4xl h-screen bg-gradient-to-r from-teal-400 to-yellow-200">
         <ul className="circles">
           <li><img src={chicken} alt="chickenlap" /></li>
@@ -76,12 +81,14 @@ const Home = () => {
           <div className="text-5xl font-semibold drop-shadow-lg px-5">
           Our top selling packages
           </div>
-          <div className="text-2xl sm:hidden lg:block md:block
+          <div className="text-2xl
            px-5">
           See what our beloving customers loved most this week, join our never ending dish - ORDER NOW!
           </div>
+        <div className="flex justify-center"><img src={custom} className="w-[20rem] rounded-lg lg:hidden md:hidden" alt="custom" /></div>
+
         </div>
-        <div className=""><img src={custom} className="w-[32rem] lg:inline rounded-[5rem] md:inline  hidden" alt="jolly1" /></div>
+        <div className=""><img src={custom} className="w-[32rem] rounded-[5rem] lg:inline md:inline hidden" alt="custom" /></div>
       </div>
 
       {/* Food price list  */}
@@ -97,10 +104,10 @@ const Home = () => {
         </div>
       </div>
      
-
+{/* our favourite package */}
      <div className="flex  justify-center gap-5 items-center h-screen">
       <div className="md:pl-5">
-        <img className="rounded-[50%] lg:w-[30rem]" src={custom} alt="custom" />
+        <img className="rounded-[50%] lg:w-[30rem]" src={food3} alt="custom" />
       </div>
       <div className="flex flex-col gap-4">
         <div className="text-5xl w-[25rem] font-bold text-[#8fd521] px-3">Our favorite custom packages this week!</div>
@@ -110,16 +117,17 @@ const Home = () => {
           See our favourite custom orders this week
         </div>
 
-        <img className="rounded-[50%] lg:w-[30rem] sm:hidden pr-[1rem]" src={custom} alt="custom" />
+        <img className="rounded-[50%] lg:w-[30rem] sm:hidden pr-[1rem]" src={food3} alt="custom" />
 
       </div>
      </div>
-     
+
+  
     {/* event and corporate */}
 <div className="lg:flex justify-center gap-10  my-[3rem] pl-3 pr-3 md:pl-5 md:text-[1.3rem]">
   {/* event */}
-  <div className="flex flex-col gap-3">
-    <a href="http://wa.me/2348035791134">
+  <div className="flex flex-col gap-3" >
+    <a href="http://wa.me/2348035791134#peace be upon you. i want to order for our upcoming event" className="cursor-pointer">
       <div  className="flex floor text-3xl lg:w-[35rem] h-[10rem] md:w-[47rem] font-bold text-[#ffff] rounded-lg pt-5 pl-7">
     Event
     </div>
@@ -132,7 +140,7 @@ const Home = () => {
 
 {/* corporate */}
   <div className="flex flex-col gap-3">
-    <a href="http://wa.me/2348035791134">
+    <a href="http://wa.me/2348035791134#peace be upon you. i want to order for our upcoming hangout" className="cursor-pointer">
       <div  className="flex floors text-3xl lg:w-[35rem] h-[10rem] md:w-[47rem] font-bold text-[#ffff] rounded-lg pt-5 pl-7">
     Corporate
     </div>
@@ -145,7 +153,6 @@ const Home = () => {
 </div>
 
 {/* delivery  message */}
-
 
 <div className="flex  justify-center gap-5 items-center h-screen">
       <div className="md:pl-5">

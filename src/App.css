@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 
+
 /*Start Animations*/
  @-webkit-keyframes animatetop {
 	from {
@@ -220,6 +221,4 @@ transform: scale(1.2);
 
 body {
 	font-family: 'Mulish', sans-serif;
-  }
-  
-  
+  }  
