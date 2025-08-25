@@ -19,7 +19,7 @@ const Header = () => {
    
   
 
-{/* second */}
+{/* navigation bar */}
 <div id="top" className="flex justify-between p-5  items-center bg-gradient-to-r from-lime-400 to-green-500 items-center text-white">
 <div className="flex  gap-3 items-center">
        <div><img src={logo} className="w-[3rem] rounded-full" alt="logo" /></div>
@@ -34,11 +34,10 @@ const Header = () => {
 <div className={`${drop ? 'block lg:flex absolute  lg:static z-20 fonts-bold left-[15px] top-[85px]  space-y-3 py-3': 'hidden lg:flex'} gap-10  w-full  lg:w-auto items-center text-[1.1rem]`}>
   <div>
     <a className="hover:opacity-50" href="/">Home</a>
-
+  
   </div>
   <div><button><a className="hover:opacity-50" href="#contactus">Contact us</a></button></div>
   <div><button><a className="hover:opacity-50" href="#aboutus">About us</a></button></div>
-  {/* <div><a href="/Enlightment">Spiritual Enlightment</a></div> */}
   <div className="sm:my-[1rem] lg:my-[0rem]">
     <button className="py-2 px-4 bg-green-500 border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  text-[#fdfdfd] font-bold rounded hover:-translate-y-1 duration-700 text-[1rem]">
       <a href="#menu">Menu</a>
@@ -46,12 +45,12 @@ const Header = () => {
   </div>
   <div className="sm:my-[1rem] lg:my-[0rem]">
     <button className="bg-[#fdb72f] opacity-90 py-2 px-4 border-dotted border-2 hover:opacity-50  focus:animate-none hover:animate-none  rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
-      <a href="#location">Location Us</a>
+      <a href="#location">Locate Us</a>
     </button>
   </div>
 </div>
 <div className="text-white">
-<div onClick={collapse} className={`${drop?'hidden':'block lg:hidden'}`}><GiHamburgerMenu/></div> 
+    <div onClick={collapse} className={`${drop?'hidden':'block lg:hidden'}`}><GiHamburgerMenu/></div> 
     <div onClick={close} className={`${!drop?'hidden':'block lg:hidden'}`}><VscClose /> </div>   
 </div>
 </div>

@@ -18,9 +18,11 @@ import food3 from "../../assets/food3.avif"
 import deliveryavater from "../../assets/deliveryavater.jpg"
 
 
+
 import React from 'react';
 import Typed from 'typed.js';
 
+import { Carousel } from "@material-tailwind/react";
 
 
 
@@ -57,7 +59,7 @@ const Home = () => {
           <li><img src={pepper} alt="chickenlap" /></li>
           <li><img src={chicken} alt="chickenlap" /></li>
         </ul>
-         <div className="flex justify-center">
+         <div  className="flex justify-center">
           <div className="flex flex-col gap-5 items-center  mt-[10rem] sm:pl-5">
             <div className="lg:text-5xl lg:w-[45rem] font-semibold drop-shadow-lg text-white">
               <span className="" ref={el} />
@@ -65,7 +67,7 @@ const Home = () => {
             </div>
             <div className="flex gap-3 items-center">
               <div><Button href="#menu" a="Order a package" /></div>
-              <div><Button href="http://wa.me/2349037938452?text=peace be upon you, i want to build a package" a="Build your package" /></div>
+              <div><Button  href="http://wa.me/2349037938452?text=peace be upon you, i want to build a package of mumtiah food"  a="Build your package" /></div>
             </div>
           </div>
 
@@ -101,9 +103,59 @@ const Home = () => {
           <div><Modals className='w-[18rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Grill Chicken" price="N10,000"  image={grillis}/></div>
           <div><Modals className='w-[18rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Pepper Fried/Soup Chicken" price="N11,500"  image={pepperf}/></div>
           <div><Modals className='w-[18rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Efo/Egusi Chicken" price="N12,000" image={elegusi}/></div>
+
         </div>
       </div>
-     
+
+
+  
+{/* carousel for other varieties */}
+
+<div className="flex justify-center">
+  <div className="flex flex-col gap-5 items-center my-[2.5rem]">
+
+<h1 className="text-5xl text-[#8fd521]">Other Varieties</h1>
+{/* carousel */}
+   <Carousel
+   autoplay={7}
+   transition={{ duration: 2 }} 
+      className="rounded-xl bg-green-400 w-[30rem]"
+      navigation={({ setActiveIndex, activeIndex, length }) => (
+        <div className="absolute bottom-4 left-2/4 z-50  flex -translate-x-2/4 gap-2">
+          {new Array(length).fill("").map((_, i) => (
+            <span
+              key={i}
+              className={`block h-1 cursor-pointer rounded-2xl transition-all  content-[''] ${
+                activeIndex === i ? "w-8 bg-white" : "w-4 bg-white"
+              }`}
+              onClick={() => setActiveIndex(i)}
+            />
+          ))}
+        </div>
+      )}
+    >
+      <img
+        src={event3}
+        alt="food3"
+        className="object-cover"
+      />
+      <img
+        src={pepperf}
+        alt="pepperf"
+        className="object-cover"
+      />
+      <img
+        src={grillis}
+        alt="grillis"
+        className="object-cover"
+      />
+    </Carousel>
+
+</div>
+
+</div>
+
+
 {/* our favourite package */}
      <div className="flex  justify-center gap-5 items-center h-screen">
       <div className="md:pl-5">
@@ -122,7 +174,7 @@ const Home = () => {
       </div>
      </div>
 
-  
+
     {/* event and corporate */}
 <div className="lg:flex justify-center gap-10  my-[3rem] pl-3 pr-3 md:pl-5 md:text-[1.3rem]">
   {/* event */}
