@@ -13,7 +13,9 @@ import grillis from "../../assets/grillis.jpg"
 import pepperf from "../../assets/pepperf.jpg"
 import foodcustom from "../../assets/foodcustom.webp"
 import custom from "../../assets/custom.jpg"
-import event3 from "../../assets/event3.jpg"
+import chickenrice from "../../assets/chickenrice.jpg"
+import fullchicken from "../../assets/fullchicken.jpg"
+
 import food3 from "../../assets/food3.avif"
 import deliveryavater from "../../assets/deliveryavater.jpg"
 
@@ -119,7 +121,7 @@ const Home = () => {
    <Carousel
    autoplay={7}
    transition={{ duration: 2 }} 
-      className="rounded-xl bg-green-400 w-[30rem]"
+      className="rounded-xl bg-green-400 w-[30rem] border border-green-400 "
       navigation={({ setActiveIndex, activeIndex, length }) => (
         <div className="absolute bottom-4 left-2/4 z-50  flex -translate-x-2/4 gap-2">
           {new Array(length).fill("").map((_, i) => (
@@ -135,18 +137,18 @@ const Home = () => {
       )}
     >
       <img
-        src={event3}
+        src={fullchicken}
         alt="food3"
         className="object-cover"
       />
       <img
-        src={pepperf}
+        src={chickenrice}
         alt="pepperf"
         className="object-cover"
       />
       <img
-        src={grillis}
-        alt="grillis"
+        src={fullchicken}
+        alt="fullchicken"
         className="object-cover"
       />
     </Carousel>
