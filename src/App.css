@@ -164,7 +164,7 @@
 	}
 } 
 
-.floor{
+.party{
 	background-image: url(./assets/event3.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -181,7 +181,7 @@ transform: scale(1.2);
 
 
 
-.floors{
+.corporate{
 	background-image: url(./assets/corporate.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;

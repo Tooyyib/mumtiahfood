@@ -16,6 +16,8 @@ import custom from "../../assets/custom.jpg"
 import chickenrice from "../../assets/chickenrice.jpg"
 import fullchicken from "../../assets/fullchicken.jpg"
 
+
+
 import food3 from "../../assets/food3.avif"
 import deliveryavater from "../../assets/deliveryavater.jpg"
 
@@ -116,12 +118,12 @@ const Home = () => {
 <div className="flex justify-center">
   <div className="flex flex-col gap-5 items-center my-[2.5rem]">
 
-<h1 className="text-5xl text-[#8fd521]">Other Varieties</h1>
+<h1 className="text-5xl text-[#8fd521] lg:hidden md:hidden sm:block">Other Varieties</h1>
 {/* carousel */}
    <Carousel
    autoplay={7}
    transition={{ duration: 2 }} 
-      className="rounded-xl bg-green-400 w-[30rem] border border-green-400 "
+      className="rounded-xl bg-green-400 lg:hidden md:hidden sm:w-[22rem] sm:h-[22rem] border border-green-400 "
       navigation={({ setActiveIndex, activeIndex, length }) => (
         <div className="absolute bottom-4 left-2/4 z-50  flex -translate-x-2/4 gap-2">
           {new Array(length).fill("").map((_, i) => (
@@ -182,7 +184,7 @@ const Home = () => {
   {/* event */}
   <div className="flex flex-col gap-3" >
     <a href="http://wa.me/2348035791134?text=peace be upon you. i want to order for our upcoming event" className="cursor-pointer">
-      <div  className="flex floor text-3xl lg:w-[35rem] h-[10rem] md:w-[47rem] font-bold text-[#ffff] rounded-lg pt-5 pl-7">
+      <div  className="flex party text-3xl lg:w-[35rem] h-[10rem] md:w-[47rem] font-bold text-[#ffff] rounded-lg pt-5 pl-7">
     Event
     </div>
     </a>
@@ -195,7 +197,7 @@ const Home = () => {
 {/* corporate */}
   <div className="flex flex-col gap-3">
     <a href="http://wa.me/2348035791134?text=peace be upon you. i want to order for our upcoming hangout" className="cursor-pointer">
-      <div  className="flex floors text-3xl lg:w-[35rem] h-[10rem] md:w-[47rem] font-bold text-[#ffff] rounded-lg pt-5 pl-7">
+      <div  className="flex corporate text-3xl lg:w-[35rem] h-[10rem] md:w-[47rem] font-bold text-[#ffff] rounded-lg pt-5 pl-7">
     Corporate
     </div>
     </a>
