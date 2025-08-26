@@ -125,7 +125,9 @@ const Home = () => {
 
 <h1 className="text-5xl text-[#8fd521] lg:hidden md:hidden sm:block">Other Varieties</h1>
 {/* carousel */}
-   <Carousel
+{/* insert carousel inside an anchor tag  */}
+<a href="http://wa.me/2349037938452?text=peace be upon you, i want to order jollof and full-fried chicken / full grilled chicken">
+<Carousel
    autoplay={7}
    transition={{ duration: 2 }} 
       className="rounded-xl bg-green-400 lg:hidden md:hidden sm:w-[22rem] sm:h-[22rem] border border-green-400 "
@@ -162,18 +164,17 @@ const Home = () => {
        <img
         src={fullchiv}
         alt="fullchiv"
-        className="object-cover"
+        className="object-cover h-[92%] w-full"
       />
 
        <img
         src={moimoi}
         alt="moimoi"
-        className="object-cover"
+        className="object-cover h-[92%] w-full"
       />
     </Carousel>
-
+</a>
 </div>
-
 </div>
 
 
