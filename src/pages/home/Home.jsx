@@ -16,6 +16,11 @@ import custom from "../../assets/custom.jpg"
 import chickenrice from "../../assets/chickenrice.jpg"
 import fullchicken from "../../assets/fullchicken.jpg"
 
+import fullchiv from "../../assets/fullchiv.jpg"
+import chiv from "../../assets/chiv.jpg"
+import moimoi from "../../assets/moimoi.jpg"
+
+
 
 
 import food3 from "../../assets/food3.avif"
@@ -149,8 +154,20 @@ const Home = () => {
         className="object-cover"
       />
       <img
-        src={fullchicken}
-        alt="fullchicken"
+        src={chiv}
+        alt="chiv"
+        className="object-cover"
+      />
+
+       <img
+        src={fullchiv}
+        alt="fullchiv"
+        className="object-cover"
+      />
+
+       <img
+        src={moimoi}
+        alt="moimoi"
         className="object-cover"
       />
     </Carousel>
