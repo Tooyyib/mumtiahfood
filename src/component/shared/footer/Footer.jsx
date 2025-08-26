@@ -36,6 +36,11 @@ const Footer = () => {
       <div className="text-[#ffff]">Location</div>
       <div>Lagos</div>
       <div id="location">23,Olowu,Bariga</div>
+     <div className="flex flex-col gap-2">
+       <div className="text-white">Dev Team</div>
+       <div>+2349016791320</div>
+     </div>
+
     </div>
     <div className="text-green-900 flex flex-col gap-3 my-[0.7rem]">
       <div className="text-[#ffff]">Connect</div>
@@ -94,7 +99,7 @@ const Footer = () => {
   </div>
 
   {/* copyright and current date  */}
-  <div className="text-center fonts-semibold bg-gradient-to-r from-lime-400 to-lime-500 text-[0.8rem] text-[#fdf7fb]">Copyright © {`${year}`}.
+  <div className=" text-center fonts-semibold bg-gradient-to-r from-lime-400 to-lime-500 text-[0.8rem] text-[#fdf7fb]">Copyright © {`${year}`}.
    All rights reserved | Mumtiah_Foods <br />
   <span className=" font-bold">{`${day} - ${month +1} - ${year} `}</span>
   <div className="animate-bounce">
