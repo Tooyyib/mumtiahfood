@@ -127,7 +127,7 @@ const Home = () => {
 {/* carousel */}
 {/* insert carousel inside an anchor tag  */}
 <Carousel
-  //  autoplay={7}
+   autoplay={7}
    transition={{ duration: 2 }} 
       className="rounded-xl bg-green-400 lg:hidden md:hidden sm:w-[22rem] sm:h-[22rem] border border-green-400 "
       navigation={({ setActiveIndex, activeIndex, length }) => (
@@ -145,7 +145,7 @@ const Home = () => {
       )}
     >
       <a  href="http://wa.me/2349037938452?text=peace be upon you, i want to order jollof rice + full-fried chicken">
-      <div className="text-center text-2xl text-white">
+      <div className="text-center text-2xl text-white my-[0.4rem]">
 jollof rice + full chicken N12,500
 </div>
 <img
@@ -157,7 +157,7 @@ jollof rice + full chicken N12,500
 
       
      <a  href="http://wa.me/2349037938452?text=peace be upon you, i want to order jollof rice + 3 chicken 8,000">
-       <div className="text-center text-2xl text-white ">
+       <div className="text-center text-2xl text-white my-[0.4rem]">
 jollof rice + 3 chicken N8,000
 </div>
 <img
@@ -168,7 +168,7 @@ jollof rice + 3 chicken N8,000
 </a>
 
      <a  href="http://wa.me/2349037938452?text=peace be upon you, i want to order full-fried chicken">
-     <div className="text-center text-2xl text-white ">
+     <div className="text-center text-2xl text-white my-[0.4rem]">
 N10,500
 </div>
 <img
@@ -180,23 +180,23 @@ N10,500
 
 
  <a  href="http://wa.me/2349037938452?text=peace be upon you, i want to order full grilled chicken">
- <div className="text-center text-2xl text-white">
+ <div className="text-center text-2xl text-white my-[0.4rem]">
   N10,000
 </div>
 <img
         src={fullchiv}
         alt="fullchiv"
-        className="object-cover h-[86%] w-full"
+        className="object-cover h-[84%] w-full"
       />
 </a>
 <a  href="http://wa.me/2349037938452?text=peace be upon you, i want to order moi-moi jollof rice and chicken">
-<div className="text-center text-2xl text-white">
+<div className="text-center text-2xl text-white my-[0.4rem]">
   2 packs N8,000
 </div>
 <img
         src={moimoi}
         alt="moimoi"
-        className="object-cover h-[86%] w-full"
+        className="object-cover h-[84%] w-full"
       />
 </a>
     </Carousel>
