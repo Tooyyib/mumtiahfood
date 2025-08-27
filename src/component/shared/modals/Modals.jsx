@@ -1,4 +1,4 @@
-import CartButton from '../button/CartButton'
+// import CartButton from '../button/CartButton'
 
 const Modals = ({text,image,price,className}) => {
   return (
@@ -6,7 +6,7 @@ const Modals = ({text,image,price,className}) => {
         <div className='drop-shadow-lg text-2xl'>{text}</div>
         <div><img src={image} className={className} alt="food" /></div>
         <div   className='text-2xl drop-shadow-lg'>{price}</div>
-        <div><CartButton /></div>
+        {/* <div><CartButton /></div> */}
     </div>
   )
 }

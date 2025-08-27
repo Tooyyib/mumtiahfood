@@ -70,11 +70,12 @@ const Home = () => {
           <div className="flex flex-col gap-5 items-center  mt-[10rem] sm:pl-5">
             <div className="lg:text-5xl lg:w-[45rem] font-semibold drop-shadow-lg text-white">
               <span className="" ref={el} />
-     
             </div>
+
+            {/* order buttons  */}
             <div className="flex gap-3 items-center">
               <div><Button href="#menu" a="Order a package" /></div>
-              <div><Button  href="http://wa.me/2349037938452?text=peace be upon you, i want to build a package of mumtiah food"  a="Build your package" /></div>
+              <div><Button  href="http://wa.me/2348035791134?text=peace be upon you.i want to build a package of mumtiah food"  a="Build your package" /></div>
             </div>
           </div>
 
@@ -104,13 +105,30 @@ const Home = () => {
     
       <div className="flex justify-center mt-[3rem]">
         <div id="menu" className="lg:grid lg:grid-cols-3 gap-10 space-y-2 md:grid md:grid-cols-2 lg:block">
-          <div><Modals className='w-[20rem] h-[18rem] rounded-[10rem] drop-shadow-lg' text="Jollof Rice and Chicken" price="N1,500"  image={foodcustom}/></div>
-          <div><Modals className='w-[18rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Frozen Chicken" price="N8-10,000"  image={frozen}/></div>
-          <div><Modals className='w-[18em]  h-[18rem] rounded-[50%] drop-shadow-lg' text="Fried Chicken" price="N10,500"  image={friedd}/></div>
-          <div><Modals className='w-[18rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Grill Chicken" price="N10,000"  image={grillis}/></div>
-          <div><Modals className='w-[18rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Pepper Fried/Soup Chicken" price="N11,500"  image={pepperf}/></div>
-          <div><Modals className='w-[18rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Efo/Egusi Chicken" price="N12,000" image={elegusi}/></div>
+          {/* insert food modal in an anchor tag */}
+          <a className="fooditems" href="ttp://wa.me/2347087126470?text=peace be upon you. i want to order frozen chicken 8,000, or how much is available currently?">
+            <div><Modals className='w-[18rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Frozen Chicken" price="N8-10,000"  image={frozen}/></div>
+          </a>
 
+          <a className="fooditems" href="http://wa.me/2348035791134?text=peace be upon you. i want to order for jollof rice and chicken 1,500. is it available?">
+            <Modals className='w-[20rem] h-[18rem] rounded-[10rem] drop-shadow-lg' text="Jollof Rice and Chicken" price="N1,500"  image={foodcustom}/>
+            </a>
+
+            <a className="fooditems" href="http://wa.me/2348035791134?text=peace be upon you. i want to order for fried chicken 10,500 or how much is available?">
+            <div><Modals className='w-[18em]  h-[18rem] rounded-[50%] drop-shadow-lg' text="Fried Chicken" price="N10,500"  image={friedd}/></div>
+            </a>
+          
+          <a className="fooditems" href="http://wa.me/2348035791134?text=peace be upon you. i want to order for Grill chicken 10,000 or how much is available?">
+          <div><Modals className='w-[18rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Grill Chicken" price="N10,000"  image={grillis}/></div>
+          </a>
+
+          <a className="fooditems" href="http://wa.me/2348035791134?text=peace be upon you. i want to order for pepper fried chicken 11,500 or how much is available?">
+          <div><Modals className='w-[18rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Pepper Fried/Soup Chicken" price="N11,500"  image={pepperf}/></div>
+          </a>
+
+           <a className="fooditems" href="http://wa.me/2348035791134?text=peace be upon you. i want to order for Egusi/Efo chicken 12,000 or how much is available?">
+          <div><Modals className='w-[18rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Efo/Egusi Chicken" price="N12,000" image={elegusi}  /></div>
+          </a>
         </div>
       </div>
 

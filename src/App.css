@@ -164,6 +164,21 @@
 	}
 } 
 
+
+
+.fooditems{
+	transition: transform .2s;
+}
+
+.fooditems:hover {
+
+transform: scale(1.2);
+
+}
+
+
+
+
 .party{
 	background-image: url(./assets/event3.jpg);
 	background-repeat: no-repeat;
@@ -172,7 +187,7 @@
 	transition: transform .2s;
 }
 
-.floor:hover {
+.party:hover {
 
 transform: scale(1.2);
 
@@ -188,7 +203,7 @@ transform: scale(1.2);
 	background-position: center;
 	transition: transform .2s;
 }
-.floors:hover {
+.corporate:hover {
 
 transform: scale(1.2);
 
