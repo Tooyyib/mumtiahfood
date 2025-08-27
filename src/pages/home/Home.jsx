@@ -1,7 +1,5 @@
 import Container from "../../component/shared/container/Container"
 import chicken from "../../assets/chicken.png"
-import pepper from "../../assets/pepper.png"
-import tomat from "../../assets/tomat.png"
 import chicken2 from "../../assets/chicken2.png"
 import Button from "../../component/shared/button/Button"
 import Modals from "../../component/shared/modals/Modals"
@@ -60,12 +58,12 @@ const Home = () => {
           <li><img src={chicken} alt="chickenlap" /></li>
           <li><img src={chicken} alt="chickenlap" /></li>
           <li><img src={chicken2} alt="chickenlap" /></li>
-          <li><img src={tomat} alt="chickenlap" /></li>
-          <li><img src={chicken} alt="chickenlap" /></li>
-          <li><img src={pepper} alt="chickenlap" /></li>
+          <li><img src={chicken2} alt="chickenlap" /></li>
           <li><img src={chicken} alt="chickenlap" /></li>
           <li><img src={chicken2} alt="chickenlap" /></li>
-          <li><img src={pepper} alt="chickenlap" /></li>
+          <li><img src={chicken} alt="chickenlap" /></li>
+          <li><img src={chicken2} alt="chickenlap" /></li>
+          <li><img src={chicken} alt="chickenlap" /></li>
           <li><img src={chicken} alt="chickenlap" /></li>
         </ul>
          <div  className="flex justify-center">
