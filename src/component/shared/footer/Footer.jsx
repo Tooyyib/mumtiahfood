@@ -16,7 +16,7 @@ const Footer = () => {
 
 <>
 {/* about us  */}
-<div id="aboutus" className="text-white bg-green-700 flex justify-center text-[1.4rem] my-[1.2rem]">
+<div id="aboutus" className="text-white bg-green-600 flex justify-center text-[1.4rem] my-[1.2rem]">
 <div className="flex flex-col gap-2 w-[60rem] pl-3 pr-3 pb-3">
   <div>Mumtiah fooods is a food service distributor that provides it's customers with innovative food offerings in halal way</div>
 <div>We wish to delight our customers with the rare taste of authentic Nigeria, foreign dishes and to excite them with rich, aromatic and healthy flavours</div>

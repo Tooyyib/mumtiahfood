@@ -1,8 +1,10 @@
+import React from "react"
 import Container from "../../component/shared/container/Container"
 import chicken from "../../assets/chicken.png"
 import chicken2 from "../../assets/chicken2.png"
 import Button from "../../component/shared/button/Button"
-import Modals from "../../component/shared/modals/Modals"
+import CartButton from "../../component/shared/button/CartButton"
+// import Modals from "../../component/shared/modals/Modals"
 
 import elegusi from "../../assets/elegusi.jpg"
 import friedd from "../../assets/friedd.jpg"
@@ -20,13 +22,11 @@ import moimoi from "../../assets/moimoi.jpg"
 
 
 
-
 import food3 from "../../assets/food3.avif"
 import deliveryavater from "../../assets/deliveryavater.jpg"
 
 
 
-import React from 'react';
 import Typed from 'typed.js';
 
 import { Carousel } from "@material-tailwind/react";
@@ -104,14 +104,73 @@ const Home = () => {
       {/* Food price list  */}
     
       <div className="flex justify-center mt-[3rem]">
-        <div id="menu" className="lg:grid lg:grid-cols-3 gap-10 space-y-2 md:grid md:grid-cols-2 lg:block">
+        <div id="menu" className="lg:grid lg:grid-cols-3 items-center md:gap-5 md:grid md:grid-cols-2 space-y-5 md:block">
           {/* insert food modal in an anchor tag */}
-          <a className="fooditems" href="ttp://wa.me/2347087126470?text=peace be upon you. i want to order frozen chicken 8,000, or how much is available currently?">
-            <div><Modals className='w-[18rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Frozen Chicken" price="N8-10,000"  image={frozen}/></div>
+          
+
+    <div className='flex flex-col gap-5 border drop-shadow-lg py-4 px-4 rounded-lg bg-white items-center pt-2'>
+        <div className='drop-shadow-lg text-2xl'>Frozen Chicken</div>
+        <div className=""><img src={frozen}   className="rounded-[50%] w-[20rem] drop-shadow-lg" alt="frozen chicken" /></div>
+        <div className="text-2xl drop-shadow-lg">N8-10,000</div>
+        <div className=""><CartButton href="ttp://wa.me/2347087126470?text=peace be upon you. i want to order frozen chicken 8,000, or how much is available currently?" a="order now" /></div>
+    </div>
+
+
+     <div className='flex flex-col gap-5 border drop-shadow-lg py-4 px-4 rounded-lg bg-white items-center pt-2'>
+        <div className='drop-shadow-lg text-2xl'>Fried Chicken</div>
+        <div><img src={friedd} className="rounded-[50%] w-[20rem]  drop-shadow-lg" alt="fried chicken" /></div>
+        <div className="text-2xl drop-shadow-lg">N10,500</div>
+        <div className=""><CartButton href="http://wa.me/2348035791134?text=peace be upon you. i want to order for fried chicken 10,500 or how much is available?" a="order now" /></div>
+    </div>
+
+
+
+     <div className=' flex flex-col gap-5 border drop-shadow-lg  rounded-lg bg-white items-center py-3'>
+        <div className='drop-shadow-lg text-2xl'>jollof rice + Chicken</div>
+        <div><img src={foodcustom} className="rounded-[50%] w-[18rem] drop-shadow-lg" alt="jollof rice" /></div>
+        <div className="text-2xl drop-shadow-lg">N1,500</div>
+        <div className=""><CartButton  href="http://wa.me/2348035791134?text=peace be upon you. i want to order for jollof rice and chicken 1,500. is it available?" a="order now"/></div>
+    </div>
+
+
+
+
+
+     <div className=' flex flex-col gap-5 border drop-shadow-lg py-4 px-4 rounded-lg bg-white items-center '>
+        <div className='drop-shadow-lg text-2xl'>pepper fried/soup Chicken</div>
+        <div><img src={pepperf} className="rounded-[50%]  w-[18rem]  drop-shadow-lg" alt="pepperf" /></div>
+        <div className="text-2xl drop-shadow-lg">N11,500</div>
+        <div className=""><CartButton  href="http://wa.me/2348035791134?text=peace be upon you. i want to order for pepper fried chicken 11,500 or how much is available?" a="order now"/></div>
+    </div>
+
+
+
+
+     <div className=' flex flex-col gap-5 border drop-shadow-lg py-4 px-4 rounded-lg bg-white items-center '>
+        <div className='drop-shadow-lg text-2xl'>Efo/Egusi Chicken</div>
+        <div><img src={elegusi} className="rounded-[50%]  w-[18rem] drop-shadow-lg" alt="elegusi" /></div>
+        <div className="text-2xl drop-shadow-lg">N12,000</div>
+        <div className=""><CartButton  href="http://wa.me/2348035791134?text=peace be upon you. i want to order for Egusi/Efo chicken 12,000 or how much is available?" a="order now"/></div>
+    </div>
+
+
+
+     <div className='flex flex-col gap-5 border drop-shadow-lg py-4 px-4 rounded-lg bg-white items-center '>
+        <div className='drop-shadow-lg text-2xl'>Grill Chicken</div>
+        <div><img src={grillis} className="rounded-[50%]  w-[20rem] drop-shadow-lg" alt="grillis" /></div>
+        <div className="text-2xl drop-shadow-lg">N10,000</div>
+        <div className=""><CartButton  href="http://wa.me/2348035791134?text=peace be upon you. i want to order for Grill chicken 10,000 or how much is available?" a="order now" /></div>
+    </div>
+
+
+
+
+          {/* <a className="fooditems" href="ttp://wa.me/2347087126470?text=peace be upon you. i want to order frozen chicken 8,000, or how much is available currently?">
+            <div><Modals className='w-[18rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Frozen Chicken" price="N8-10,000"  image={frozen} children="food" /></div>
           </a>
 
           <a className="fooditems" href="http://wa.me/2348035791134?text=peace be upon you. i want to order for jollof rice and chicken 1,500. is it available?">
-            <Modals className='w-[20rem] h-[18rem] rounded-[10rem] drop-shadow-lg' text="Jollof Rice and Chicken" price="N1,500"  image={foodcustom}/>
+            <Modals className='w-"" h-"" rounded-[10rem] drop-shadow-lg' text="Jollof Rice and Chicken" price="N1,500"  image={foodcustom}/>
             </a>
 
             <a className="fooditems" href="http://wa.me/2348035791134?text=peace be upon you. i want to order for fried chicken 10,500 or how much is available?">
@@ -128,7 +187,7 @@ const Home = () => {
 
            <a className="fooditems" href="http://wa.me/2348035791134?text=peace be upon you. i want to order for Egusi/Efo chicken 12,000 or how much is available?">
           <div><Modals className='w-[18rem] h-[18rem] rounded-[50%] drop-shadow-lg' text="Efo/Egusi Chicken" price="N12,000" image={elegusi}  /></div>
-          </a>
+          </a> */}
         </div>
       </div>
 
