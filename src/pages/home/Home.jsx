@@ -87,7 +87,7 @@ const Home = () => {
 
       <div className="flex justify-evenly items-center bg-green-700 h-screen text-white">
 
-        <div className="lg:w-[50%] flex flex-col gap-5 md:pl-5">
+        <div className="lg:w-[50%] flex  flex-col gap-5 md:pl-5">
           <div className="text-5xl font-semibold drop-shadow-lg px-5">
           Our top selling packages
           </div>
@@ -110,7 +110,7 @@ const Home = () => {
 
     <div className='flex flex-col gap-5 border drop-shadow-lg py-4 px-4 rounded-lg bg-white items-center pt-2'>
         <div className='drop-shadow-lg text-2xl'>Frozen Chicken</div>
-        <div className=""><img src={frozen}   className="rounded-[50%] fooditems w-[20rem] drop-shadow-lg" alt="frozen chicken" /></div>
+        <div className=""><img src={frozen}   className="rounded-[50%] fooditems w-[19rem] drop-shadow-lg" alt="frozen chicken" /></div>
         <div className="text-2xl">N8-10,000</div>
         <div className=""><CartButton href="ttp://wa.me/2347087126470?text=peace be upon you. i want to order frozen chicken 8,000, or how much is available currently?" a="order now" /></div>
     </div>
@@ -308,7 +308,7 @@ N10,500
         <img className="rounded-[50%] lg:w-[30rem]" src={deliveryavater} alt="custom" />
       </div>
       <div className="flex flex-col gap-4">
-        <div className="text-5xl w-[23rem] font-bold text-[#8fd521] px-3">Deliver to your door step</div>
+        <div className="text-5xl w-[23rem] font-bold text-[#8fd521] px-3">Fast delivery to your door step</div>
         <div className="text-2xl w-[20rem] sm: hidden lg:block md:block px-3">
           The level of care and customer service our pilots provide is a testament to the filtering,
           training, and values we've instilled into them from the beginning.
