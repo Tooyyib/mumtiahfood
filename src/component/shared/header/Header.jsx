@@ -4,6 +4,7 @@ import { useState } from "react";
 import {  VscClose } from 'react-icons/vsc';
 import {  GiHamburgerMenu } from 'react-icons/gi';
 
+
 const Header = () => {
 
   const [drop, setDrop] = useState(false);
@@ -43,8 +44,13 @@ const Header = () => {
       <a href="#menu">Menu</a>
     </button>
   </div>
-  <div className="sm:my-[1rem] lg:my-[0rem]">
-    <button className="bg-[#fdb72f] opacity-90 py-2 px-4 border-dotted border-2 hover:opacity-50  focus:animate-none hover:animate-none  rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
+  
+    <button className="bg-[#fdb72f] opacity-90 md:hidden py-2 px-4 border-dotted border-2 hover:opacity-50  focus:animate-none hover:animate-none  rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSetgEGyOQY72EcWd8cHytKMsE0Rhh43TBua_LAhtuCpOeK89Q/viewform?usp=header">Rate us</a>
+    </button>
+
+    <div className="sm:my-[1rem] lg:my-[0rem]">
+    <button className="bg-green-300 opacity-90 py-2 px-4 border-dotted border-2 hover:opacity-50  focus:animate-none hover:animate-none  rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
       <a href="#location">Locate Us</a>
     </button>
   </div>

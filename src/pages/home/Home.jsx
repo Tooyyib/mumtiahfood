@@ -25,7 +25,7 @@ import moimoi from "../../assets/moimoi.jpg"
 import food3 from "../../assets/food3.avif"
 import deliveryavater from "../../assets/deliveryavater.jpg"
 
-
+import { FiMessageCircle } from "react-icons/fi";
 
 import Typed from 'typed.js';
 
@@ -50,6 +50,7 @@ const Home = () => {
 
 
   return (
+    // parent container 
     <Container>
 
       {/* mumtiah intro message */}
@@ -83,6 +84,7 @@ const Home = () => {
          </div>
       </div>
 
+
 {/* top selling packages */}
 
       <div className="flex justify-evenly items-center bg-green-700 h-screen text-white">
@@ -100,6 +102,14 @@ const Home = () => {
         </div>
         <div className=""><img src={custom} className="w-[32rem] rounded-[5rem] lg:inline md:inline hidden" alt="custom" /></div>
       </div>
+
+{/* talk message with sticky position */}
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSetgEGyOQY72EcWd8cHytKMsE0Rhh43TBua_LAhtuCpOeK89Q/viewform?usp=header">
+      <div className="sticky fooditems drop-shadow-lg  flex items-center sm:bg-white  md:bg-green-400 w-[5rem] rounded-[50%] h-[5rem] justify-center  z-50  left-[89rem] top-[300px] mt-[2rem]">
+    <FiMessageCircle  className="md:block text-white hidden text-5xl"/>
+  </div>
+</a>
+
 
       {/* Food price list  */}
     
@@ -260,7 +270,7 @@ N10,500
       </div>
       <div className="flex flex-col gap-4">
         <div className="text-5xl w-[25rem] font-bold text-[#8fd521] px-3">Our favorite custom packages this week!</div>
-        <div className="mytext text-2xl w-[20rem] sm: hidden lg:block md:block px-3">
+        <div className="mytext text-2xl w-[20rem] italic hidden lg:block md:block px-3">
           We love it when you create your own custom 
           packages and express your creativity!
           See our favourite custom orders this week
@@ -270,6 +280,7 @@ N10,500
 
       </div>
      </div>
+
 
 
     {/* event and corporate */}
