@@ -133,7 +133,7 @@ const Home = () => {
         <div className='drop-shadow-lg text-2xl'>Frozen Chicken</div>
         <div className=""><img src={frozen}   className="rounded-[50%] fooditems w-[19rem] drop-shadow-lg" alt="frozen chicken" /></div>
         <div className="text-2xl">N9-10,000</div>
-        <div className=""><CartButton href="ttp://wa.me/2347087126470?text=peace be upon you. i want to order frozen chicken 8,000, or how much is available currently?" a="order now" /></div>
+        <div className=""><CartButton href="ttp://wa.me/2347087126470?text=peace be upon you. i want to order frozen chicken 9,000, or how much is available currently?" a="order now" /></div>
     </div>
 
 {/* fried chicken */}
@@ -141,7 +141,7 @@ const Home = () => {
         <div className='drop-shadow-lg text-2xl'>Fried Chicken</div>
         <div><img src={friedd} className="rounded-[50%] fooditems w-[20rem]  drop-shadow-lg" alt="fried chicken" /></div>
         <div className="text-2xl">N11,500</div>
-        <div className=""><CartButton href="http://wa.me/2348035791134?text=peace be upon you. i want to order for fried chicken 10,500 or how much is available?" a="order now" /></div>
+        <div className=""><CartButton href="http://wa.me/2348035791134?text=peace be upon you. i want to order for fried chicken 11,500 or how much is available?" a="order now" /></div>
     </div>
 
 
@@ -161,7 +161,7 @@ const Home = () => {
         <div className='drop-shadow-lg text-2xl'>pepper fried/soup Chicken</div>
         <div><img src={pepperf} className="rounded-[50%] fooditems w-[18rem]  drop-shadow-lg" alt="pepperf" /></div>
         <div className="text-2xl">N12,500</div>
-        <div className=""><CartButton  href="http://wa.me/2348035791134?text=peace be upon you. i want to order for pepper fried chicken 11,500 or how much is available?" a="order now"/></div>
+        <div className=""><CartButton  href="http://wa.me/2348035791134?text=peace be upon you. i want to order for pepper fried chicken 12,500 or how much is available?" a="order now"/></div>
     </div>
 
 
@@ -171,7 +171,7 @@ const Home = () => {
         <div className='drop-shadow-lg text-2xl'>Efo/Egusi Chicken</div>
         <div><img src={elegusi} className="rounded-[50%] fooditems  w-[18rem] drop-shadow-lg" alt="elegusi" /></div>
         <div className="text-2xl">N17,000</div>
-        <div className=""><CartButton  href="http://wa.me/2348035791134?text=peace be upon you. i want to order for Egusi/Efo chicken 12,000 or how much is available?" a="order now"/></div>
+        <div className=""><CartButton  href="http://wa.me/2348035791134?text=peace be upon you. i want to order for Egusi/Efo chicken 17,000 or how much is available?" a="order now"/></div>
     </div>
 
 
@@ -180,7 +180,7 @@ const Home = () => {
         <div className='drop-shadow-lg text-2xl'>Grill Chicken</div>
         <div><img src={grillis} className="rounded-[50%] fooditems w-[20rem] drop-shadow-lg" alt="grillis" /></div>
         <div className="text-2xl">N11,000</div>
-        <div className=""><CartButton  href="http://wa.me/2348035791134?text=peace be upon you. i want to order for Grill chicken 10,000 or how much is available?" a="order now" /></div>
+        <div className=""><CartButton  href="http://wa.me/2348035791134?text=peace be upon you. i want to order for Grill chicken 11,000 or how much is available?" a="order now" /></div>
     </div>
 
         </div>
@@ -214,9 +214,9 @@ const Home = () => {
         </div>
       )}
     >
-      <a  href="http://wa.me/2349037938452?text=peace be upon you, i want to order jollof rice + full-fried chicken">
+      <a  href="http://wa.me/2349037938452?text=peace be upon you, i want to order jollof rice + full-fried chicken 13,500">
       <div className="text-center text-2xl text-white my-[0.4rem]">
-jollof rice + full chicken N12,500
+jollof rice + full chicken N13,500
 </div>
 <img
         src={fullchicken}
@@ -237,9 +237,9 @@ jollof rice + 3 chicken N8,000
       />
 </a>
 
-     <a  href="http://wa.me/2349037938452?text=peace be upon you, i want to order full-fried chicken">
+     <a  href="http://wa.me/2349037938452?text=peace be upon you, i want to order full-fried 11,500">
      <div className="text-center text-2xl text-white my-[0.4rem]">
-N10,500
+N11,500
 </div>
 <img
         src={chiv}
@@ -249,9 +249,9 @@ N10,500
 </a>
 
 
- <a  href="http://wa.me/2349037938452?text=peace be upon you, i want to order full grilled chicken">
+ <a  href="http://wa.me/2349037938452?text=peace be upon you, i want to order full grilled chicken 11,000">
  <div className="text-center text-2xl text-white my-[0.4rem]">
-  N10,000
+  N11,000
 </div>
 <img
         src={fullchiv}
