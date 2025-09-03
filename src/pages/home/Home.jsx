@@ -66,6 +66,17 @@ const Home = () => {
           <li><img src={chicken2} alt="chickenlap" /></li>
           <li><img src={chicken} alt="chickenlap" /></li>
           <li><img src={chicken} alt="chickenlap" /></li>
+
+          <li><img src={chicken} alt="chickenlap" /></li>
+          <li><img src={chicken} alt="chickenlap" /></li>
+          <li><img src={chicken2} alt="chickenlap" /></li>
+          <li><img src={chicken2} alt="chickenlap" /></li>
+          <li><img src={chicken} alt="chickenlap" /></li>
+          <li><img src={chicken2} alt="chickenlap" /></li>
+          <li><img src={chicken} alt="chickenlap" /></li>
+          <li><img src={chicken2} alt="chickenlap" /></li>
+          <li><img src={chicken} alt="chickenlap" /></li>
+          <li><img src={chicken} alt="chickenlap" /></li>
         </ul>
          <div  className="flex justify-center">
           <div className="flex flex-col gap-5 items-center  mt-[10rem] sm:pl-5">
@@ -117,24 +128,24 @@ const Home = () => {
         <div id="menu" className="lg:grid lg:grid-cols-3 items-center md:gap-5 md:grid md:grid-cols-2 space-y-5 md:block">
           {/* insert food modal in an anchor tag */}
           
-
+{/* frozen chicken */}
     <div className='flex flex-col gap-5 border drop-shadow-lg py-4 px-4 rounded-lg bg-white items-center pt-2'>
         <div className='drop-shadow-lg text-2xl'>Frozen Chicken</div>
         <div className=""><img src={frozen}   className="rounded-[50%] fooditems w-[19rem] drop-shadow-lg" alt="frozen chicken" /></div>
-        <div className="text-2xl">N8-10,000</div>
+        <div className="text-2xl">N9-10,000</div>
         <div className=""><CartButton href="ttp://wa.me/2347087126470?text=peace be upon you. i want to order frozen chicken 8,000, or how much is available currently?" a="order now" /></div>
     </div>
 
-
+{/* fried chicken */}
      <div className='flex flex-col gap-5 border drop-shadow-lg py-4 px-4 rounded-lg bg-white items-center pt-2'>
         <div className='drop-shadow-lg text-2xl'>Fried Chicken</div>
         <div><img src={friedd} className="rounded-[50%] fooditems w-[20rem]  drop-shadow-lg" alt="fried chicken" /></div>
-        <div className="text-2xl">N10,500</div>
+        <div className="text-2xl">N11,500</div>
         <div className=""><CartButton href="http://wa.me/2348035791134?text=peace be upon you. i want to order for fried chicken 10,500 or how much is available?" a="order now" /></div>
     </div>
 
 
-
+{/* jollof rice and chicken */}
      <div className=' flex flex-col gap-5 border drop-shadow-lg  rounded-lg bg-white items-center py-3'>
         <div className='drop-shadow-lg text-2xl'>Jollof Rice + Chicken</div>
         <div><img src={foodcustom} className="rounded-[50%] fooditems w-[15rem] drop-shadow-lg" alt="jollof rice" /></div>
@@ -145,30 +156,30 @@ const Home = () => {
 
 
 
-
+{/* pepper fried/soup chicken */}
      <div className=' flex flex-col gap-5 border drop-shadow-lg py-4 px-4 rounded-lg bg-white items-center '>
         <div className='drop-shadow-lg text-2xl'>pepper fried/soup Chicken</div>
         <div><img src={pepperf} className="rounded-[50%] fooditems w-[18rem]  drop-shadow-lg" alt="pepperf" /></div>
-        <div className="text-2xl">N11,500</div>
+        <div className="text-2xl">N12,500</div>
         <div className=""><CartButton  href="http://wa.me/2348035791134?text=peace be upon you. i want to order for pepper fried chicken 11,500 or how much is available?" a="order now"/></div>
     </div>
 
 
 
-
+{/* efo/egusi chicken */}
      <div className=' flex flex-col gap-5 border drop-shadow-lg py-4 px-4 rounded-lg bg-white items-center '>
         <div className='drop-shadow-lg text-2xl'>Efo/Egusi Chicken</div>
         <div><img src={elegusi} className="rounded-[50%] fooditems  w-[18rem] drop-shadow-lg" alt="elegusi" /></div>
-        <div className="text-2xl">N12,000</div>
+        <div className="text-2xl">N17,000</div>
         <div className=""><CartButton  href="http://wa.me/2348035791134?text=peace be upon you. i want to order for Egusi/Efo chicken 12,000 or how much is available?" a="order now"/></div>
     </div>
 
 
-
+{/* grill chicken */}
      <div className='flex flex-col gap-5 border drop-shadow-lg py-4 px-4 rounded-lg bg-white items-center '>
         <div className='drop-shadow-lg text-2xl'>Grill Chicken</div>
         <div><img src={grillis} className="rounded-[50%] fooditems w-[20rem] drop-shadow-lg" alt="grillis" /></div>
-        <div className="text-2xl">N10,000</div>
+        <div className="text-2xl">N11,000</div>
         <div className=""><CartButton  href="http://wa.me/2348035791134?text=peace be upon you. i want to order for Grill chicken 10,000 or how much is available?" a="order now" /></div>
     </div>
 
