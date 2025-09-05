@@ -177,10 +177,10 @@ const Home = () => {
 
 {/* grill chicken */}
      <div className='flex flex-col gap-5 border drop-shadow-lg py-4 px-4 rounded-lg bg-white items-center '>
-        <div className='drop-shadow-lg text-2xl'>Grill Chicken</div>
+        <div className='drop-shadow-lg text-2xl'>Grilled Chicken</div>
         <div><img src={grillis} className="rounded-[50%] fooditems w-[20rem] drop-shadow-lg" alt="grillis" /></div>
         <div className="text-2xl">N11,000</div>
-        <div className=""><CartButton  href="http://wa.me/2348035791134?text=peace be upon you. i want to order for Grill chicken 11,000 or how much is available?" a="order now" /></div>
+        <div className=""><CartButton  href="http://wa.me/2348035791134?text=peace be upon you. i want to order for Grilled chicken 11,000 or how much is available?" a="order now" /></div>
     </div>
 
         </div>
@@ -259,6 +259,8 @@ N11,500
         className="object-cover h-[84%] w-full"
       />
 </a>
+
+
 <a  href="http://wa.me/2349037938452?text=peace be upon you, i want to order moi-moi jollof rice and chicken">
 <div className="text-center text-2xl text-white my-[0.4rem]">
   2 packs N8,000
