@@ -195,7 +195,7 @@ const Home = () => {
 
 <h1 className="text-5xl text-[#8fd521] lg:hidden md:hidden sm:block">Other Varieties</h1>
 {/* carousel */}
-{/* insert carousel inside an anchor tag  */}
+{/* inserting each carousel inside an anchor tag  */}
 <Carousel
    autoplay={7}
    transition={{ duration: 2 }} 
@@ -216,7 +216,7 @@ const Home = () => {
     >
       <a  href="http://wa.me/2349037938452?text=peace be upon you, i want to order jollof rice + full-fried chicken 13,500">
       <div className="text-center text-2xl text-white my-[0.4rem]">
-jollof rice + full chicken N13,500
+      jollof rice + full chicken N13,500
 </div>
 <img
         src={fullchicken}
