@@ -140,7 +140,7 @@ const Home = () => {
      <div className='flex flex-col gap-5 border drop-shadow-lg py-4 px-4 rounded-lg bg-white items-center pt-2'>
         <div className='drop-shadow-lg text-2xl'>Fried Chicken</div>
         <div><img src={friedd} className="rounded-[50%] fooditems w-[20rem]  drop-shadow-lg" alt="fried chicken" /></div>
-        <div className="text-2xl">N22,500</div>
+        <div className="text-2xl">N23,000</div>
         <div className=""><CartButton href="http://wa.me/2348035791134?text=peace be upon you. i want to order for fried chicken 11,500 or how much is available?" a="order now" /></div>
     </div>
 
